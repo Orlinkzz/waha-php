@@ -1,0 +1,33 @@
+# Dependencies
+/vendor/
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHPUnit
+/.phpunit.cache/
+.phpunit.result.cache
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+/logs/
+
+# Build
+/composer.lock
+
+# Testing
+/tests/manual_db_test.php
