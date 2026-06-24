@@ -148,6 +148,11 @@
             background: rgba(99, 102, 241, 0.1);
         }
 
+        nav a.active {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
         /* Main Content */
         main {
             padding: 64px 0;
@@ -215,7 +220,7 @@
             content: attr(data-lang);
             position: absolute;
             top: 12px;
-            right: 12px;
+            right: 74px;
             background: rgba(255, 255, 255, 0.1);
             padding: 4px 12px;
             border-radius: 6px;
@@ -483,7 +488,7 @@
         <div class="container">
             <div class="header-content">
                 <h1>🚀 WAHA PHP Client</h1>
-                <p>PHP client modern untuk <a href="https://waha.devlike.pro" style="color: white; text-decoration: underline;">WAHA</a> (WhatsApp HTTP API) dengan fitur <strong>anti-banned flow</strong> otomatis dan database logging</p>
+                <p style="color: rgb(234, 234, 234);">PHP client modern untuk <a href="https://waha.devlike.pro" style="color: white; text-decoration: underline;">WAHA</a> (WhatsApp HTTP API) dengan fitur <strong>anti-banned flow</strong> otomatis dan database logging</p>
                 <div class="badges">
                     <span class="badge">⚡ PHP 8.1+</span>
                     <span class="badge">🎯 Laravel Support</span>
@@ -497,7 +502,7 @@
     <nav>
         <div class="container">
             <ul>
-                <li><a href="#installation">Installation</a></li>
+                <li><a href="#installation" >Installation</a></li>
                 <li><a href="#setup">Setup</a></li>
                 <li><a href="#usage">Usage</a></li>
                 <li><a href="#bulk">Bulk Send</a></li>
